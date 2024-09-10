@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Update Cover Letter{% endblock %}
+
+{% block content %}
+<div class="main-container">
+    <h1 class="text-center mb-4">Update Cover Letter</h1>
+    <form method="post">
+        <div class="mb-3">
+            <label for="content" class="form-label">Edit Cover Letter:</label>
+            <textarea class="form-control" id="content" name="content" rows="15">{{ content }}</textarea>
+        </div>
+        <button type="submit" class="btn btn-custom">Save Changes</button>
+        <a href="{{ url_for('cover_letters') }}" class="btn btn-secondary">Go Back</a>
+    </form>
+</div>
+{% endblock %}

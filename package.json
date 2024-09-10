@@ -1,0 +1,17 @@
+{
+  "name": "devilslettuce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "python app.py",
+    "dev": "flask run --debug --port 5000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "flask": "^2.0.1"
+  }
+}

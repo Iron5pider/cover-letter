@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="cover-letter-preview">
+    <h2>Cover Letter Preview</h2>
+    <div class="letter-content">
+        <pre>{{ content }}</pre>
+    </div>
+    <div class="button-group">
+        <a href="{{ url_for('download_file', filename=filename) }}" class="btn btn-primary">Download PDF</a>
+        <a href="{{ url_for('update_cover_letter', filename=filename) }}" class="btn btn-secondary">Edit</a>
+    </div>
+</div>
+{% endblock %}

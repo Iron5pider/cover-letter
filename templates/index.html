@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+
+{% block title %}Generate Your Cover Letter{% endblock %}
+
+{% block content %}
+<div class="fade-in-up">
+    <h1 class="text-center mb-4">Create Your Professional Cover Letter</h1>
+    <form method="post" action="{{ url_for('index') }}" enctype="multipart/form-data" id="cover-letter-form">
+        <div class="card mb-4 fade-in-up">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0"><i class="fas fa-user me-2"></i>Your Profile Information</h5>
+            </div>
+            <div class="card-body">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" name="name" value="{{ current_user.name }}" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" value="{{ current_user.email }}" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="address" class="form-label">Home Address</label>
+                        <input type="text" class="form-control" id="address" name="address" value="{{ current_user.address }}" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" value="{{ current_user.phone }}" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4 fade-in-up">
+            <div class="card-header bg-success text-white">
+                <h5 class="mb-0"><i class="fas fa-file-upload me-2"></i>Upload Job Description</h5>
+            </div>
+            <div class="card-body">
+                <div id="drop-area" class="p-4 text-center">
+                    <i class="fas fa-cloud-upload-alt fa-3x mb-3"></i>
+                    <p>Drag and drop your job descriptions here, or click the button below to upload</p>
+                    <input type="file" id="job_description" name="job_description" multiple accept=".pdf,.doc,.docx,.txt" style="display:none;">
+                    <button type="button" class="btn btn-primary mt-3" id="browse-button">
+                        <i class="fas fa-folder-open me-2"></i>Browse Files
+                    </button>
+                </div>
+                <ul id="file-list" class="mt-3"></ul>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-custom w-100 fade-in-up" id="generate-button">
+            <i class="fas fa-magic me-2"></i>Generate Cover Letters
+        </button>
+    </form>
+
+    <div id="loading-overlay" class="d-none">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-3">Generating cover letters... Please wait.</p>
+    </div>
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <div class="alert alert-warning mt-4 fade-in-up">
+                <ul class="mb-0">
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+    {% endwith %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('cover-letter-form');
+    const generateButton = document.getElementById('generate-button');
+    const loadingOverlay = document.getElementById('loading-overlay');
+    const fileInput = document.getElementById('job_description');
+    const fileList = document.getElementById('file-list');
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        loadingOverlay.classList.remove('d-none');
+        form.submit();
+    });
+
+    fileInput.addEventListener('change', function() {
+        fileList.innerHTML = '';
+        for (let i = 0; i < this.files.length; i++) {
+            let li = document.createElement('li');
+            li.textContent = this.files[i].name;
+            fileList.appendChild(li);
+        }
+    });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,28 @@
+Armaan Sood
+1812 S Hardy Dr
+Tempe, AZ 85281
++1 (480) 979-8092
+asood22@asu.edu
+
+September 09, 2024
+
+SGM Administration 
+Arizona State University
+Tempe, AZ
+
+Dear Hiring Manager,
+
+I am excited to apply for the Software Assistant (FWS Eligible) position. As a full-time student pursuing a degree in Computer Science, I have gained substantial experience in software development, particularly with Python, and I am eager to bring my skills to your team.
+
+With over two years of experience in developing Python applications, I have developed a strong foundation in writing clean and efficient code based on specifications. My academic projects and internships have provided me with hands-on opportunities to implement theoretical concepts into real-world applications. Most recently, I developed a web-based application that integrated various data sources while creating intuitive front-end user interfaces, demonstrating my ability to deliver well-rounded software solutions.
+
+In addition to my Python expertise, I have experience in coding using JavaScript to create engaging web-based visualizations. I understand the importance of responsive design and overall performance, and I apply best practices while developing both front-end and back-end components. My familiarity with C#/C++ further enhances my ability to adapt and learn new programming languages as needed.
+
+I am well-versed in agile project management methodologies, and I have utilized tools like Monday.com to track progress and facilitate effective collaboration among team members. Additionally, my experience includes writing unit tests and functional tests to ensure code quality and reliability, and I am committed to enforcing technical standards through design and code reviews.
+
+I am available to work approximately 20 hours per week on-site, which aligns perfectly with my current academic schedule. I am eager to contribute to the development of innovative software applications, research third-party products, and assist with optimizing existing software to meet new requirements.
+
+Thank you for considering my application for the Software Assistant position. I look forward to the opportunity to discuss how my skills and experiences can support your development team and contribute to your success.
+
+Warm Regards,
+Armaan Sood
