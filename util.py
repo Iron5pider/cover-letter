@@ -1,7 +1,28 @@
 import re
 import pdfplumber
 
+def clean_job_description(text):
+    # Remove unnecessary phrases and details
+    job_description = re.sub(r'\bStudent Worker [IViv]{1,2}\b', '', text)  # Remove Roman numerals I to V after "Student Worker"
+    job_description = re.sub(r'(Student Recruitment Type|Campus/Location|Student Hire Hourly Campus|Department Name|Full-Time/Part-Time|VP Code Scope of Search|Open Grant Funded Position|Salary Range Close Date).*', '', job_description, flags=re.DOTALL)
+    job_description = re.sub(r'\s+', ' ', job_description)  # Replace multiple spaces with a single space
+    job_description = re.sub(r'^\W+|\W+$', '', job_description)  # Remove leading/trailing non-word characters
+    return job_description.strip()
+def extract_job_description(text):
+    # Updated regex to capture the job description correctly
+    job_desc_match = re.search(r'Job Description\s*([\s\S]*?)(?:Essential Duties|Desired Qualifications|Minimum Qualifications|Working Environment)', text, re.IGNORECASE)
 
+    if job_desc_match:
+        job_description = job_desc_match.group(1).strip()
+        # Clean up the job description
+        job_description = re.sub(r'\d+BR', '', job_description)
+        job_description = re.sub(r'Student Worker [IViv]{1,2}', '', job_description).strip()
+        job_description = re.sub(r'Next Job.*?Previous Job', '', job_description, flags=re.DOTALL)
+        job_description = re.sub(r'\s+', ' ', job_description)
+        job_description = re.sub(r'^\W+|\W+$', '', job_description)
+        return job_description.strip()
+    else:
+        return "Job Description Not Found"
 def get_job_title(text):
     # Regex to find the job title after a date and strip out any irrelevant parts
     job_title_match = re.search(
@@ -18,6 +39,7 @@ def get_job_title(text):
         return job_title if job_title else "Job Title Not Found"
     else:
         return "Job Title Not Found"
+
 
 
 # Function to extract department name and format it for the receiver's address
@@ -99,15 +121,50 @@ def extract_essential_duties(text):
         return "\n".join(duties_lines)
     else:
         return "Essential Duties Not Found"
+
+
+def clean_text(text):
+    # Remove job codes like '103964BR'
+    cleaned_text = re.sub(r'\b\d+BR\b', '', text)
+
+    # Remove navigation elements like 'Next Job', 'Previous Job', and directional arrows
+    cleaned_text = re.sub(r'(Next Job|Previous Job||)', '', cleaned_text, flags=re.IGNORECASE)
+
+    # Replace multiple spaces with a single space
+    cleaned_text = re.sub(r'\s+', ' ', cleaned_text)
+
+    # Strip leading/trailing whitespace
+    cleaned_text = cleaned_text.strip()
+
+    return cleaned_text
 def extract_information_from_pdf(pdf_path):
     with pdfplumber.open(pdf_path) as pdf:
         text = ''
         for page in pdf.pages:
             text += page.extract_text()
-    # print(text)
+    #
+    # print("Extracted text from PDF:")
+    # print(text[:500])  # Print first 500 characters for debugging
+
     job_title = get_job_title(text)
     department_name = get_department_name(text)
+    jobtext = extract_job_description(text)
+    cleaned_text = clean_text(jobtext)
+    job_description = clean_job_description(cleaned_text)
     desired_qualifications = get_desired_qualifications(text)
     essential_duties = extract_essential_duties(text)
 
-    return job_title, department_name, desired_qualifications, essential_duties
+    # print("\nExtracted Information:")
+    # print(f"Job Title: {job_title}")
+    # print(f"Department Name: {department_name}")
+    # print(f"Job Description: {job_description}")
+    # print(f"Desired Qualifications: {desired_qualifications}")
+    # print(f"Essential Duties: {essential_duties}")
+
+    return job_title, department_name, job_description, desired_qualifications, essential_duties
+
+
+# # Test the function
+# if __name__ == "__main__":
+#     result = extract_information_from_pdf("jobs/1.pdf")
+

@@ -1,0 +1,28 @@
+Armaan Sood
+1812 S Hardy Dr
+Tempe, AZ 85281
++1 (480) 979-8092
+asood22@asu.edu
+
+September 30, 2024
+
+Decision Theater 
+Arizona State University
+Tempe, AZ
+
+Dear Hiring Manager,
+
+I am excited to apply for the Software Developer position at Decision Theater. As a full-time student pursuing a degree in [Your Major, e.g., Computer Science or Software Engineering], I believe my strong foundation in web development technologies and my eagerness to work on impactful projects make me a great fit for your innovative team.
+
+Throughout my academic career, I have gained extensive experience in programming languages such as Java, PHP, and Python. My proficiency in using frameworks like Django and Laravel has enabled me to develop robust backend components, while my skills in HTML, CSS, and JavaScript allow me to create engaging front-end interfaces. I am particularly excited by the opportunity to work with visualization libraries like D3 and echarts, as my recent projects have involved creating dynamic web-based visualizations that simplify complex data for users.
+
+My experience with object-oriented development and ORM (Object Relational Mapping) practices has prepared me for the demands of this role. I have successfully implemented theoretical concepts and mockups into real products, contributing to the overall functionality and user experience of web applications. Additionally, my familiarity with agile project management software, particularly JIRA, has helped me to stay organized and effectively communicate with my team during project development.
+
+Data management is another key area of my expertise. I have worked with PostgreSQL and other relational database management systems, gaining hands-on experience in extracting, manipulating, and storing data efficiently. I also prioritize writing clean, efficient code and understand the importance of conducting unit and functional tests to ensure the reliability of the applications I develop.
+
+Furthermore, my leadership experience in guiding small teams of developers has enhanced my collaborative skills and reinforced my commitment to technical standards and best practices. I am comfortable working in a Linux environment and have experience performing basic server administration tasks, which I understand to be a valuable asset for this position.
+
+I am available to work approximately 20 hours per week and am eager to contribute my skills while learning from the diverse and talented team at Decision Theater. Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to your projects and support ASU's mission of utilizing cutting-edge technologies to inform decision-making.
+
+Warm Regards,
+Armaan Sood

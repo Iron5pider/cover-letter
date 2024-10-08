@@ -1,0 +1,26 @@
+Armaan Sood
+1812 S Hardy Dr
+Tempe, AZ 85281
++1 (480) 979-8092
+asood22@asu.edu
+
+September 30, 2024
+
+ET Software Engr Integ APIs 
+Arizona State University
+Tempe, AZ
+
+Dear Hiring Manager,
+
+I am excited to apply for the ET Software Engineer Integration APIs Technician position with ASU Enterprise Technology. Currently enrolled in the Fulton Schools of Engineering as a student pursuing a degree in Computer Science, I am eager to contribute my skills and enthusiasm for technology to your dynamic and innovative team.
+
+Having participated in the FACE program, I have gained valuable insights into the practical applications of software engineering principles. My academic background has equipped me with strong analytical and problem-solving skills, enabling me to approach complex issues efficiently. I have experience working on group projects that required collaboration with cross-functional teams, enhancing my communication and teamwork abilities.
+
+Throughout my coursework, I have explored web application development and have become increasingly familiar with API integrations. I am eager to further develop my skills in SQL database management and query optimization, as I understand the significance of data efficiency and integrity in enhancing web applications and workflows. Although I do not have extensive hands-on experience yet, I am a quick learner and am motivated to expand my knowledge in SQL and the other tools mentioned in the job description, such as AWS, GitHub, Jenkins, Terraform, and Docker.
+
+In addition to my technical abilities, I pride myself on being detail-oriented and adept at prioritizing tasks effectively. I understand the importance of monitoring system and application performance to ensure optimal operations and will actively contribute to improvement initiatives. Staying informed about industry trends is integral to my professional development, and I look forward to participating in discussions and brainstorming sessions that drive technological advancements within the department.
+
+I am genuinely excited about the opportunity to contribute to impactful projects that support ASU’s mission and the success of its students. Thank you for considering my application for the ET Software Engineer Integration APIs Technician position. I look forward to discussing how my skills, background, and eagerness to learn can make a positive impact on your team.
+
+Warm Regards,
+Armaan Sood

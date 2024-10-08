@@ -1,0 +1,28 @@
+Armaan Sood
+1812 S Hardy Dr
+Tempe, AZ 85281
++1 (480) 979-8092
+asood22@asu.edu
+
+September 14, 2024
+
+RTO Research Computing 
+Arizona State University
+Tempe, AZ
+
+Dear Hiring Manager,
+
+I am writing to express my interest in the Scientific Software Engineer position at the Computational Research Accelerator within ASU’s Research Technology Office. With a strong foundation in software development and a passion for advancing research through innovative technology, I am eager to contribute to your team and support computational researchers in maximizing the potential of ASU’s renowned High Performance Computing (HPC) resources.
+
+Throughout my academic and professional experiences, I have gained proficiency in [insert relevant programming language or languages], which has been essential for developing and implementing software solutions. My background in [relevant field or coursework] has equipped me with the technical skills necessary to engage effectively in software engineering projects, particularly those incorporating high performance computing technologies and novel architectures like GPU acceleration.
+
+Moreover, my involvement in [mention any relevant project, internship, or experience] has honed my ability to communicate complex concepts clearly and effectively, both in written and verbal formats. I understand that good communication skills are critical for collaborating with diverse teams and delivering training to researchers who may be unfamiliar with cutting-edge HPC technology. I take pride in my ability to break down technical information and make it accessible to others, fostering a collaborative learning environment.
+
+In addition to my programming expertise, I possess a strong commitment to outreach activities that advance research. I am particularly interested in engagement initiatives that promote the adoption of HPC and other advanced computational resources among researchers. My prior experience in [mention any relevant outreach or education-focused role] has prepared me to contribute positively to training and education efforts, ensuring that users can fully leverage the capabilities of the HPC cluster.
+
+I am excited about the opportunity to work as part of your existing team and contribute to software engineering projects that play a pivotal role in scaling and accelerating research initiatives. My enthusiasm for learning and adapting to new technologies makes me well-suited for the dynamic environment of the Computational Research Accelerator.
+
+Thank you for considering my application for the Scientific Software Engineer position. I look forward to the opportunity to discuss how my background and skills align with the goals of the Research Technology Office and how I can contribute to empowering ASU's research community.
+
+Warm Regards,
+Armaan Sood

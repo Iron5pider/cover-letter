@@ -269,22 +269,23 @@ def index():
                     logging.info(f"Saved job file: {job_path}")
 
                     # Extract job details
-                    job_title, department_name, desired_qualifications, essential_duties = extract_information_from_pdf(job_path)
+                    job_title, department_name,job_description, desired_qualifications, essential_duties = extract_information_from_pdf(job_path)
                     logging.info(f"Extracted job details for: {job_title}")
 
-                    # Construct message for OpenAI API
+                    # Construct message for OpenAI API with updated schema including job description
                     message_content = (
                         "Imagine you are an expert career coach helping a professional craft a compelling cover letter. "
-                        f"Create a cover letter for the position of {job_title} "
+                        "Using the detailed job information provided, create a personalized cover letter for the position of {job_title}. "
                         "The cover letter must highlight the candidate's qualifications, skills, and experience, "
-                        "aligning them with the desired qualifications and essential duties of the job as described below:\n\n"
+                        "aligning them seamlessly with the job description, desired qualifications, and essential duties outlined below:\n\n"
                         f"Job Title: {job_title}\n"
+                        f"Job Description:\n{job_description}\n"
                         f"Desired Qualifications:\n{desired_qualifications}\n"
                         f"Essential Duties:\n{essential_duties}\n\n"
-                        "Use the applicant's background and skills from their resume to tailor the letter. "
-                        "DO NOT Include placeholders for [Company Name], [Company Address], and [Company City, State Zip] in the letter."
+                        "Incorporate the applicant's background and skills from their resume to tailor the letter effectively. "
+                        "Do not include any placeholders or generic terms like [Company Name], [Company Address], or [Company City, State Zip]. "
+                        "Ensure the cover letter is fully customized and reads as a genuine application to the company."
                     )
-
                     try:
                         # OpenAI API calls
                         logging.info("Sending request to OpenAI API")
@@ -304,8 +305,8 @@ def index():
                             cover_letter_content = generate_cover_letter(cover_letter_template, user_details, job_title, department_name)
 
                             # Save the cover letter files
-                            text_filename = f"{secure_filename(job_title)}.txt"
-                            pdf_filename = f"{secure_filename(job_title)}.pdf"
+                            text_filename = f"{secure_filename(job_title)}_cover_letter.txt"
+                            pdf_filename = f"{secure_filename(job_title)}_cover_letter.pdf"
                             text_filepath = os.path.join(OUTPUT_FOLDER, text_filename)
                             pdf_filepath = os.path.join(OUTPUT_FOLDER, pdf_filename)
 

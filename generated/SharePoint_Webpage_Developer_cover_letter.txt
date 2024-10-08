@@ -1,0 +1,30 @@
+Armaan Sood
+1812 S Hardy Dr
+Tempe, AZ 85281
++1 (480) 979-8092
+asood22@asu.edu
+
+October 01, 2024
+
+Sch Sustain Engr & Built Envrn 
+Arizona State University
+Tempe, AZ
+
+Dear Hiring Manager,
+
+I am eager to apply for the SharePoint Webpage Developer position at Arizona State University. With a strong background in SharePoint development and a solid understanding of web application design principles, I am excited about the opportunity to contribute to your team by creating and enhancing user-friendly SharePoint sites that meet the diverse needs of various departments.
+
+In my previous roles, I have gained extensive experience in developing, designing, and maintaining SharePoint websites. I have successfully created custom solutions using JavaScript, CSS, and HTML, ensuring that the web content is not only functional but also aligns with organizational standards and best practices. My proficiency with Microsoft Power Apps and Power Automate has allowed me to build effective workflows and automate processes, streamlining operations within the SharePoint environment.
+
+I am particularly skilled at creating and managing SharePoint templates, navigation structures, and custom elements, which are essential for providing consistency across multiple pages. My experience with electronic form platforms, such as Plumsail Forms, further enhances my ability to design and integrate custom forms that improve user engagement and data collection.
+
+Collaboration is critical in this role, and I pride myself on my ability to work closely with stakeholders to understand their requirements and security needs. I have successfully led projects that involve conducting audits to identify areas for optimization while ensuring redundancy, usability, and a seamless user experience across all SharePoint applications.
+
+In addition to my technical skills, I possess strong troubleshooting abilities that allow me to quickly identify and resolve issues within SharePoint sites. My experience working with multimedia design tools in Adobe Creative Cloud enables me to create and edit graphics that enhance the visual appeal of web pages, ensuring everything from layouts to interfaces is consistent and compliant with design standards.
+
+I am highly organized and adept at managing multiple projects, which has prepared me well for providing accurate time estimates and delivering high-quality results under tight deadlines. My familiarity with Microsoft Office Suite and Microsoft 365 tools further enhances my ability to communicate efficiently and develop comprehensive training materials, documentation, and user guides for end-users.
+
+I am excited about the opportunity to contribute my skills and passion for web development to the SharePoint Webpage Developer role and support ASU in achieving its mission of excellence in higher education. Thank you for considering my application. I look forward to discussing how I can add value to your team and help enhance the university's web presence.
+
+Warm Regards,
+Armaan Sood
