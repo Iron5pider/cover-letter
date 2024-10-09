@@ -1,0 +1,123 @@
+==========================================================================================================
+FOR FULL STACK / TECH RELATED JOB APPLICATION -->
+==========================================================================================================
+
+Armaan Sood | +1 (480)-979-8092 | asood22@asu.edu | GitHub: Iron5pider | LinkedIn: Armaan Sood
+
+EDUCATION
+BS - Business Data Analytics Arizona State University, Tempe, AZ 2026
+
+WORK EXPERIENCE
+Lead Data Engineer | Click 2 Craft Mar 2023 - Present
+Developed a custom web scraper using Python and its extensive libraries (BeautifulSoup, Scrapy) to collect
+data from various online sources, improving data collection efficiency by 30%. Cleaned and processed
+large datasets using Pandas, NumPy, and Jupyter Notebooks, achieving a dataset accuracy rate of 95%.
+Leveraged OpenAI API to enhance data preprocessing workflows, reducing manual processing time by 50%
+through automation. Automated social media outreach by integrating collected data with marketing
+platforms, leading to a 25% increase in engagement.
+Full Stack Developer | Click 2 Craft Mar 2023 - Present
+Responsible for the all operations related to Front-end Development and coordination with the DevOps
+Team.
+Made over 500+ responsive websites using React Framework
+Responsible for managing databases and ensuring Dynamic Data fetching in json format
+Data Analysis Intern | YWCA, Delhi, India Sep 2021 - Feb 2022
+Led a team in a research-based project, employing Agile methodologies and collaborative tools, resulting
+in a winning presentation at the Online Senior Internship Program.
+Conducted statistical analysis on peer pressure studies, leading to a 15% increase in mental health
+awareness among targeted youth demographics.
+Produced a short film using Adobe Premiere and After Effects, increasing public awareness of mental
+health issues by 20%
+
+SKILLS
+• Programming Languages: Python, JavaScript, HTML, CSS, SQL, Java, R, C++
+• Frontend Development: React.js, Vue.js, Angular, Bootstrap, Tailwind CSS, SASS
+• Backend Development : Node.js, Express.js, Django, Flask, Ruby on Rails, ASP.NET
+• Databases: MySQL, PostgreSQL, MongoDB, SQLite, Redis
+• API Development: RESTful, GraphQL, WebSockets, JSON, XML
+• Version Control: Git, GitHub, GitLab, Bitbucket
+• Cloud Platforms: AWS, Google Cloud, Microsoft Azure, Heroku, Docker, Kubernetes
+• DevOps: CI/CD, Jenkins, Travis CI, CircleCI, Docker, Kubernetes
+• Testing: Unit Testing, Integration Testing, Selenium, Jest, Mocha
+• Security: OAuth, JWT, Encryption, SSL/TLS, OWASP principles
+• Web Scraping: BeautifulSoup, Scrapy, Selenium
+• Deployment & Hosting: Nginx, Apache, Firebase, AWS Lambda, Serverless
+• Machine Learning: TensorFlow, Keras, Scikit-learn, PyTorch
+• Data Analysis: Pandas, NumPy, Matplotlib, Seaborn
+• Big Data: Hadoop, Spark, Hive
+• Data Visualization : Power BI, Tableau, D3.js
+• AI/ML Modeling : CNNs, ANNs, Supervised Learning, Algorithmic Learning
+• LLMs: Structured Outputs, Assistants and Client creation
+
+==========================================================================================================
+FOR CUSTOMER SUPPORT JOB APPLICATION -->
+==========================================================================================================
+
+
+Armaan Sood | +1 (480)-979-8092 | asood22@asu.edu | GitHub: Iron5pider | LinkedIn: Armaan Sood
+
+EDUCATION
+Arizona State University, Tempe , AZ | Bachelors in Business Data Analytics | 2026
+
+SKILLS
+• Customer Service: Deliver high-quality service focused on guest satisfaction.
+• Multi-line Phone Systems: Proficient in multi-line phone systems for effective communication.
+• CRM Systems: Implementing and managing CRM systems to enhance customer interactions.
+• Hospitality Operations: Skilled in front-desk operations, including guest check-in/out and billing.
+• Software Proficiency: Competent in MS Office, Google Workspace, and basic accounting software.
+• Web Technologies: Knowledgeable in HTML, CSS, and JavaScript for basic web development.
+• Communication: Strong public speaking, writing, and listening skills; bilingual in Hindi and English.
+• Organizational Skills: Effective in time management, detail orientation, and scheduling.
+• Analytical Skills: Adept at data analysis, critical thinking, and strategic planning.
+
+WORK EXPERIENCE
+Security Aide | ASU Gammage, Tempe, AZ
+May 2024 - Aug 2024
+Ensured the safety of over 3,000 patrons per event by implementing strict security protocols and
+monitoring venue operations.
+Facilitated smooth patron experiences for over 3,000 attendees per evening by providing clear guidance
+and resolving security concerns swiftly.
+Streamlined event operations during high-traffic periods by coordinating with the security team, leading to
+a 20% reduction in incident response time.
+Collaborated with the Event Security Manager to enforce compliance with safety protocols, contributing to
+a 100% incident-free record during major events.
+Hotel Management | Courtyard by Marriott, Spring Lake, NC May 2023 - Aug 2023
+Managed front-desk operations, efficiently handling guest check-ins/outs, resolving issues, and managing
+billing inquiries, ensuring a smooth guest experience.
+Assisted with the implementation of a new CRM system, streamlining guest communication and improving
+overall operational efficiency.
+Enhanced customer service protocols by providing front-line staff with customer satisfaction training,
+improving guest interactions and service quality.
+Developed proficiency in multi-line phone systems, ensuring effective and timely communication across
+hotel departments.
+
+==========================================================================================================
+FOR GRAPHICS DESIGNING JOB APPLICATION -->
+==========================================================================================================
+
+Armaan Sood | +1 (480)-979-8092 | asood22@asu.edu | GitHub: Iron5pider | LinkedIn: Armaan Sood
+
+EDUCATION
+Arizona State University
+B.S. Business Data Analytics, Expected 2026
+
+SKILLSET
+• Adobe Creative Suite: Photoshop, Illustrator, InDesign, XD
+• Branding & Identity: Canva, cohesive brand development, logo design, visual standards
+• Web Design: User Interface Design, Web Banners, Responsive Design
+• Color Theory: Harmonious palettes, emotional impact, brand alignment
+
+PROFESSIONAL EXPERIENCE
+Graphic Designer | Click To Craft (Tempe, AZ)
+Jan 2024 – Present
+• Designed branding materials, including logos, brochures, and banners
+• Led creative projects from concept to completion, ensuring brand consistency
+• Utilized Adobe Creative Suite and Canva for high-quality, on-brand designs
+• Worked with the marketing team to create effective visual campaigns
+
+Social Media Specialist | Click To Craft (Tempe, AZ)
+Jan 2024 – Present
+• Developed and executed social media strategies across multiple platforms
+• Created and curated content that increased engagement and follower growth
+• Analyzed social media performance metrics to optimize content and campaigns
+• Collaborated with the design team to align visual content with brand messaging
+
