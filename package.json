@@ -1,17 +1,9 @@
 {
   "name": "devilslettuce",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "generate cover letters",
   "scripts": {
-    "start": "python app.py",
-    "dev": "flask run --debug --port 5000",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "python app.py"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "flask": "^2.0.1"
-  }
+  "dependencies": {}
 }
